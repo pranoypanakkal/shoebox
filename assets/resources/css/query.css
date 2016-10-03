@@ -1,0 +1,145 @@
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+        text-align: center;
+    }
+    
+    .row{
+        padding: 0 2%;
+    }
+    .main-nav{
+        margin: 0 0;
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 17px;
+    }   
+    section{
+        padding: 60px 0;
+    }
+    footer{
+        font-size: 70%;
+    }
+    .icon-big{
+        font-size: 180%;
+        margin-bottom: 8px;
+    }
+    .logo{
+        width:auto;
+        height: 60px;
+    }
+    .main-nav{
+        font-size: 100%;
+    }
+    .main-nav li{
+        margin-left: 10px;
+    }
+    .main-nav form{
+        margin-right: 10px;
+        width: 20%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    body{
+        font-size: 15px;    
+    }   
+    section{
+        padding: 30px 0;
+    }
+    .row{
+        padding: 0 4%;
+    }
+    .col{
+        width: 100%;
+    }
+    footer{
+        font-size: 50%;
+    }
+    .icon-big{
+        font-size: 160%;
+        padding: 0 0;
+    }
+    .logo{
+        width:auto;
+        height: 50px    }
+    cite{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 4%;
+    }
+    .footer-nav{
+        margin-top: 5px;
+    }
+    h1{
+        font-size: 180%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    h3{
+        font-size: 125%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .main-nav-logo{
+        display: inline;
+        padding: 15px 0;
+        margin: 0 0;
+        width: 100%;
+        float: none;
+    }
+    .main-nav-logo form{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+    .main-nav{
+        display: none;
+    }
+    .main-nav-logo{
+        display: inline;
+        text-align: center;
+        float: left;
+    }
+    .main-nav-logo li{
+        margin-left: 10px;
+    }
+    .logo{
+        display: none;
+    }
+    body{
+        font-size: 12px;
+    }
+    .footer-nav{
+        float: none;
+        text-align: center;
+    }
+    .social-links{
+        float: none;
+        text-align: center;
+        padding-top: 7px;
+    }
+     h1{
+        font-size: 150%;
+    }
+    h2{
+        font-size: 125%;
+    }
+    h3{
+        font-size: 110%;
+    }
+    h2:after{
+        width: 50px;
+        margin-top: 15px;
+    }
+}
